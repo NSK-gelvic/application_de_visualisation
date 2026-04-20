@@ -1,15 +1,36 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Environnement
 .venv/
 venv/
+.env
+
 
 # Data
-data/
+data/*
+!data/.gitkeep
 *.parquet
 *.duckdb
+# Exceptions (si tu veux garder certains CSV)
+!partie_rendement_et_volume/dataset_mvttdb_final.csv
+
+# Logs
+*.log
 
 # OS
+.DS_Store
+Thumbs.db
 *:Zone.Identifier
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/

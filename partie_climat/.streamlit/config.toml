@@ -1,0 +1,19 @@
+[client]
+showErrorDetails = "none"
+
+[server]
+headless = true
+enableCORS = false
+fileWatcherType = "none"
+folderWatchBlacklist = [
+  "venv",
+  ".git",
+  "node_modules",
+  "__pycache__"
+]
+
+[theme]
+primaryColor = "#3E2723"
+backgroundColor = "#f1c01fff"
+secondaryBackgroundColor = "#8D6E63"
+textColor = "#000000"

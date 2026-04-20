@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environnement
+.venv/
+venv/
+
+# Data
+data/
+*.parquet
+*.duckdb
+
+# OS
+*:Zone.Identifier

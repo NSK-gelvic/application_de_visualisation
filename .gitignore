@@ -12,11 +12,13 @@ venv/
 
 # Data
 data/*
+!data/
 !data/.gitkeep
+!data/climat/
+!data/climat/dataset_clean_climat_V0_2_final_bis.csv
+
 *.parquet
 *.duckdb
-# Exceptions (si tu veux garder certains CSV)
-!partie_rendement_et_volume/dataset_mvttdb_final.csv
 
 # Logs
 *.log
